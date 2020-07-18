@@ -1,17 +1,29 @@
 .container {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
-  width: 800px;
+  justify-content: center;
+  margin-top: 100px;
+  align-content: space-between;
 }
 
-.picker {
+#redInput,
+#greenInput,
+#blueInput {
+  width: 30px;
+  text-align: center;
+}
+
+.controller {
+  display: flex;
   justify-content: space-between;
+  width: 350px;
+  padding-bottom: 30px;
 }
 
 .color-pallet {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }

@@ -8,7 +8,11 @@ const blueSlider = document.getElementById('blueSlider');
 const blueInput = document.getElementById('blueInput');
 
 const colorPlate = document.getElementById('color-plate');
-const colors = [0, 0, 0];
+const colors = [
+  parseInt(redInput.value),
+  parseInt(greenInput.value),
+  parseInt(blueInput.value)
+];
 
 const start = () => {
   redSlider.addEventListener('input', handleRedInput);

@@ -8,5 +8,8 @@
     "start": "live-server --port=3001"
   },
   "author": "Leandro Paz",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
