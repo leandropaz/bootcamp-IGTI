@@ -1,0 +1,17 @@
+{
+  "name": "desafio_pratico1",
+  "version": "1.0.0",
+  "description": "Desafio Pratico - Modulo 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"json-server --watch resources/users.json --port 3002\" \"live-server --port=3001\""
+  },
+  "author": "Leandro Paz",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "json-server": "^0.16.1",
+    "live-server": "^1.2.1"
+  }
+}

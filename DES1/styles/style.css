@@ -1,0 +1,12 @@
+.box {
+  border: 1px solid gray;
+  /* border-radius: 5%; */
+  width: 600px;
+  min-height: 400px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.user-picture {
+  border-radius: 50%;
+}
